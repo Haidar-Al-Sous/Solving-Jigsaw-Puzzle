@@ -1,18 +1,54 @@
 # Jigsaw Puzzle Solving using Computer Vision
 
-## Overview
+## Introduction
 
-This project aims to solve Jigsaw puzzles using computer vision and image processing techniques. It includes algorithms to analyze and assemble puzzle pieces in a manner similar to human thinking.
+This project aims to solve Jigsaw puzzles using computer vision techniques. It supports both traditional Jigsaw puzzles and square puzzles, with or without hints.
 
 ## Features
 
-**Support for Jigsaw Puzzles**: Handles pieces with various shapes like straight, concave, and convex edges.  
-**Support for Square Puzzles**: Requires an original image "Hint" to solve the puzzle.  
-**High Accuracy**: Tested on several puzzles with up to 100% accuracy in some cases.  
+- **Jigsaw Puzzle Support:** Solves puzzles by identifying corner, edge, and middle pieces.
+- **Square Puzzle Support:** Solves puzzles with square pieces, using a hint if provided.
+- **Image Processing:** Utilizes techniques like Gaussian Blur, contour detection, and edge classification.
+- **Flexible Input:** Handles both images with complete pieces and those with hints.
 
-## Contributors
-- [Ahmad-AM0](https://github.com/Ahmad-AM0)
-- [Haidar-Al-Sous](https://github.com/Haidar-Al-Sous)
-- [kenan-azd-dev](https://github.com/kenan-azd-dev)
-- [mariannedeeb](https://github.com/mariannedeeb/)
-- [hrayrdb](https://github.com/hrayrdb/)
+## Technical Overview
+
+- **Languages & Tools:** Implemented using Python and OpenCV.
+- **Algorithms:** Includes Harris corner detection, Canny edge detection, and template matching.
+- **Efficiency:** Designed to mimic human problem-solving approaches for improved efficiency.
+
+## How to Use
+
+1. **Input:** Provide a puzzle image with a green background (for Jigsaw) or a grid image and hint (for Square puzzles).
+2. **Execution:** Run the program to process and solve the puzzle.
+3. **Output:** The solved puzzle image is displayed.
+
+## Limitations
+
+- Pieces must not be rounded or overlapping.
+- Background color must be green for Jigsaw puzzles.
+- Tested on puzzles with regular shapes.
+
+## Performance
+
+| Type | Hint | Number of Pieces | Accuracy | Execution Time |
+|------|------|------------------|----------|----------------|
+| Jigsaw | False | 32 | ~60% | 46 seconds |
+| Jigsaw | True | 32 | ~84% | 26 seconds |
+| Grid | True | 200 | 100% | 9 seconds |
+| Grid | True | 450 | 100% | 30 seconds |
+
+## System Requirements
+
+- **Processor:** Core i7 8th gen
+- **RAM:** 8GB
+- **SSD:** 128GB
+- **Note:** GPU not required
+
+## Source Code
+
+The source code is included in this repository. Feel free to explore and modify it as needed.
+
+## Acknowledgments
+
+This project was developed as part of a research initiative to explore computer vision applications in puzzle solving.
