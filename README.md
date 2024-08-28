@@ -10,19 +10,6 @@ This project aims to solve Jigsaw puzzles using computer vision and image proces
 **Support for Square Puzzles**: Requires an original image "Hint" to solve the puzzle.  
 **High Accuracy**: Tested on several puzzles with up to 100% accuracy in some cases.  
 
-## Requirements
-
-- Python 3.x
-- OpenCV library
-- NumPy and SciPy libraries
-
-## Usage
-
-1. Install the requirements via:
-   ```bash
-   pip install -r requirements.txt
-
-
 ## Contributors
 - [Ahmad-AM0](https://github.com/Ahmad-AM0)
 - [Haidar-Al-Sous](https://github.com/Haidar-Al-Sous)
