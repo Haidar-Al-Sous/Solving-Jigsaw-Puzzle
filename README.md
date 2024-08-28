@@ -21,3 +21,11 @@ This project aims to solve Jigsaw puzzles using computer vision and image proces
 1. Install the requirements via:
    ```bash
    pip install -r requirements.txt
+
+
+## Contributors
+- [Ahmad-AM0](https://github.com/Ahmad-AM0)
+- [Haidar-Al-Sous](https://github.com/Haidar-Al-Sous)
+- [kenan-azd-dev](https://github.com/kenan-azd-dev)
+- [mariannedeeb](https://github.com/mariannedeeb/)
+- [hrayrdb](https://github.com/hrayrdb/)
