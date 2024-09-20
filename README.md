@@ -38,17 +38,4 @@ This project aims to solve Jigsaw puzzles using computer vision techniques. It s
 | Grid | True | 200 | 100% | 9 seconds |
 | Grid | True | 450 | 100% | 30 seconds |
 
-## System Requirements
-
-- **Processor:** Core i7 8th gen
-- **RAM:** 8GB
-- **SSD:** 128GB
-- **Note:** GPU not required
-
-## Source Code
-
-The source code is included in this repository. Feel free to explore and modify it as needed.
-
-## Acknowledgments
-
 This project was developed as part of a research initiative to explore computer vision applications in puzzle solving.
