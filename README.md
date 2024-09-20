@@ -39,3 +39,9 @@ This project aims to solve Jigsaw puzzles using computer vision techniques. It s
 | Grid | True | 450 | 100% | 30 seconds |
 
 This project was developed as part of a research initiative to explore computer vision applications in puzzle solving.
+
+![image](https://github.com/user-attachments/assets/09d35bd8-61bf-4fed-8338-aedfcfed9a4c)
+
+![image](https://github.com/user-attachments/assets/11679a39-3c1f-46ca-b617-4bd82896572f)
+
+
